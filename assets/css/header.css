@@ -24,6 +24,10 @@
 	padding: 1em;
 }
 
+.container__btn {
+	display: none;
+}
+
 .container__btn:checked ~ .menu-list {
 	display: block;
 }
@@ -43,6 +47,7 @@
 
 .menu-list__title {
 	color: var(--orange-color);
+	font-weight: 700;
 }
 
 .menu-list__link {
