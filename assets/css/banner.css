@@ -12,5 +12,23 @@
 
 .banner__text {
 	font-weight: 500;
-	margin: 1em 0;
+	margin: 1.3em 0;
+}
+
+.banner__search {
+	background-color: transparent;
+	border: 1px solid var(--white-color);
+	color: var(--white-color);
+	border-radius: 24px;
+	padding: 1em;
+	width: 100%;
+}
+
+.banner__search::placeholder {
+	font-family: var(--font-primary);
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--white-color);
+	text-align: center;
+	background: url("../img/search.svg") no-repeat 1em;
 }
