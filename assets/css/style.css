@@ -4,6 +4,7 @@
 @import url("./cards.css");
 @import url("./topics.css");
 @import url("./contact.css");
+@import url("./footer.css");
 
 :root {
 	--background-color: #ebecee;
