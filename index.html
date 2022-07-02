@@ -109,6 +109,62 @@
 			</article>
 		</section>
 
+		<section class="carousel">
+			<h2 class="carousel__heading">Mais vendidos</h2>
+			<!-- Slider main container -->
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<img src="assets/img/accessibility.png" alt="Livro sobre acessibilidade na web da AluraBooks" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/img/apache-kafka.png" alt="Livro sobre Apache Kafka e Spring Boot da AluraBooks" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/img/leadership.png" alt="Livro sobre liderança em design da AluraBooks" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/img/javascript.png" alt="Livro sobre JavaScript assertivo da AluraBooks" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/img/portugol.png" alt="Livro sobre lógica de programação com Portugol da AluraBooks" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/img/frontend-guide.png" alt="Livro guia em front-end da AluraBooks" />
+					</div>
+					...
+				</div>
+
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+			<article class="card">
+				<div class="card__description">
+					<img src="assets/img/stars.png" alt="Cinco estrelas laranjas, uma ao lado da outra" class="stars" />
+					<p class="card__advertising">Autora do Mês</p>
+					<h3 class="card__heading">Juliana Agarikov</h3>
+					<p class="card__text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+				</div>
+				<img src="assets/img/profile-pic.png" alt="Autora Juliana Agarikov sorrindo" class="card__img" />
+				<div class="card__options">
+					<ul class="buttons">
+						<li class="buttons__item">
+							<a href="#"><img src="assets/img/favs.svg" alt="Meus favoritos" /></a>
+						</li>
+						<li class="buttons__item">
+							<a href="#"><img src="assets/img/shop.svg" alt="Carrinho de compras" /></a>
+						</li>
+					</ul>
+					<a href="#" class="buttons__anchor">Saiba mais</a>
+				</div>
+			</article>
+		</section>
+
 		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 		<script>
 			const swiper = new Swiper(".swiper", {
