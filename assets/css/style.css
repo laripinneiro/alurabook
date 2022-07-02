@@ -1,5 +1,8 @@
+@import url("./header.css");
+
 :root {
 	--background-color: #ebecee;
+	--white-color: #ffffff;
 }
 
 body {
