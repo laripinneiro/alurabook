@@ -1,0 +1,31 @@
+.topics {
+	background: var(--blue-gradient);
+	text-align: center;
+	padding-top: 1em;
+}
+
+.topics__heading {
+	color: var(--white-color);
+	font-weight: 300;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.topics__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.topics__item {
+	margin: 2em 0.5em;
+}
+
+.topics__link {
+	color: var(--white-color);
+	padding: 1em;
+	background-color: var(--orange-color);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+}
