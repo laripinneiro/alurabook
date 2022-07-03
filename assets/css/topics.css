@@ -29,3 +29,23 @@
 	font-size: 14px;
 	font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+	.topics {
+		padding: 2em 0;
+	}
+	.topics__heading {
+		font-size: 24px;
+	}
+
+	.topics__list {
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 2em;
+		row-gap: 1em;
+	}
+
+	.topics__link {
+		font-size: 24px;
+	}
+}
