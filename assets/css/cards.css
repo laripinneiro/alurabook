@@ -55,3 +55,15 @@
 	padding: 1em 0;
 	text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+	.card {
+		margin: 2em auto;
+		width: 40%;
+	}
+
+	.card__img {
+		width: 80%;
+		justify-self: center;
+	}
+}
