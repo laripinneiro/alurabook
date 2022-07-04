@@ -63,7 +63,8 @@
 	text-transform: uppercase;
 }
 
-.options {
+.options,
+.container__text {
 	display: none;
 }
 
@@ -105,5 +106,25 @@
 	.header__hamburger-menu,
 	.options__btn {
 		display: none;
+	}
+}
+
+@media screen and (min-width: 1728px) {
+	.header {
+		padding: 0 2em;
+	}
+	.container__link {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: var(--black-color);
+	}
+
+	.container__text {
+		display: block;
+	}
+
+	.options {
+		margin-right: auto;
 	}
 }
