@@ -33,6 +33,14 @@
 	display: none;
 }
 
+.container__btn:checked ~ .container__label > .header__hamburger-menu {
+	background-image: url("../img/menu-white.png");
+}
+
+.container__btn:checked ~ .container__label {
+	background: var(--blue-gradient);
+}
+
 .container__btn:checked ~ .menu-list {
 	display: block;
 }
